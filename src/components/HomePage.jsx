@@ -3,21 +3,21 @@ import Calculator from './Calculator'
 
 const HomePage = () => {
   return (
-    <div className='bg-gray-800 min-h-screen'>
+    <div className='bg-gray-900 min-h-screen flex flex-col items-center justify-center'>
         
         {/* Calculator Header*/}
         <div>
-            <header className='text-center text-4xl text-white p-5'>
+            <header className='text-center text-white p-2'>
                 {/* Calculator Title*/}
-                <h1>Calculator App</h1>
+                <h1 className='text-4xl md:text-5xl font-bold'>Calculator App</h1>
 
                 {/* Horizontal line for styling*/}
-                <hr className='bg-white h-1 w-1/2 mx-auto mt-3' />
+                <hr className='bg-white h-1 w-1/2 mx-auto mt-2' />
             </header>
         </div>
 
         {/* Calculator Functionality*/}
-        <div className='flex flex-col items-center'>
+        <div className='w-full max-w-md p-4'>
             <Calculator />
         </div>
     </div>

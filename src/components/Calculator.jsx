@@ -4,9 +4,9 @@ import Buttons from './Buttons'
 
 const Calculator = () => {
   return ( 
-    <div className='flex items-center justify-center mt-24'>
+    <div className='flex items-center justify-center  bg-gray-900 p-4'>
       {/* Calculator Components*/}
-      <div className='bg-gray-600 w-full max-w-[25rem] shadow-lg p-3'>
+      <div className='bg-gray-800 w-full max-w-md rounded-lg shadow-lg p-6'>
 
           {/* Display Component*/}
           <Display />

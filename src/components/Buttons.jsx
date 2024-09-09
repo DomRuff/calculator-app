@@ -198,7 +198,7 @@ const Buttons = () => {
 
 
   return (
-    <div className='bg-indigo-300'>
+    <div className='bg-indigo-300 rounded-md'>
         {/* Calculator buttons */}
         <div className='grid grid-cols-4'>
 
