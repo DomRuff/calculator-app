@@ -1,4 +1,4 @@
-# Todo App
+# Calculator App
 
 A local recreation of the minimal size build-in Windows Calculator built with React and Vite featuring styling using TailwindCSS.
 
